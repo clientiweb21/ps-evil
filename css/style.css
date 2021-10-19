@@ -1,0 +1,173 @@
+/* Creat de Schmidt Erik, Oradea */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+#particles-js{
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ background-color: #000;
+ background-image: url('');
+ background-size: cover;
+ background-position: 50% 50%;
+ background-repeat: no-repeat;
+z-index:-11111;
+} 
+.body-particles{
+ position: relative;
+ top: 0;
+ left: 0;
+ z-index: 100;
+  }
+header{
+    height: 500px;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: none;
+  margin: 0 50px 0 50px;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: #af3e4d;
+}
+.text h1 {
+  color: #2708a0;
+  margin-top: 180px;
+  font-size: 60px;
+}
+.text h2 {
+  color: #757780;
+  font-size: 25px;
+}
+.text {
+  line-height: 3.4rem;
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+main{
+  height: 400px;
+ 
+}
+.main-container h3{
+    text-transform: uppercase;
+    color: #D62828;
+    margin: 10px auto 40%;
+    font-size: 16px;
+   
+}
+.junior-evil,.senior-evil{
+    background: rgba(0,0,0,.6);
+    height: 250px;
+    width: 200px;
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 18px;
+   color:#faf9f9;
+   box-shadow: 5px 5px 15px rgba(255,0,0,0.9);
+   font-size: 17px;
+   margin-top: 30px;
+   font-weight: 700;
+}
+
+.junior-evil:hover,.senior-evil:hover{
+  box-shadow: 5px 5px 15px #ff8800;
+  color: #ff006e;
+  transform: scale(1.2,1.2);
+}
+footer{
+    background: #14213d;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0 10px 0;
+    
+}
+footer li{
+    list-style: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 5px;
+   font-weight: 700;
+}
+footer li span{
+    font-size: 16px;
+    padding-left: 4px;
+    color:#ee6c4d;
+}
+@media (max-width: 480px){
+ .text h1{
+   margin-left:10px;
+   margin-top: 50px;
+   font-size: 50px;
+   
+ }
+ .text h2{
+   font-size: 24px;
+   margin-left: 10px;
+ }
+ .text{
+   line-height: 3rem;
+ }
+ header{
+   height: 300px;
+ }
+ .main-container{
+   flex-wrap: wrap;
+   flex-direction: column;
+   
+ }
+ footer{
+   flex-wrap: wrap;
+   justify-content: flex-start;
+ }
+ .junior-evil,.senior-evil{
+   height: 180px;
+   width: 160px;
+   font-size: 15px;
+   margin: 0 auto 25px auto;
+ }
+ .main-container h3{
+  margin: 10px auto 30%;
+ }
+}
+
+@media (max-width: 380px){
+  .text h1{
+    margin: 0;
+    font-size: 40px;
+    
+  }
+  .text h2{
+    font-size: 20px;
+    margin:0;
+  }
+  footer{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column
+  }
+  footer li{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-size: 13px;
+  }
+  footer li span{
+    font-size: 13px;
+    color:#ee6c4d;
+}
+}
+/* Creat de Schmidt Erik, Oradea */
