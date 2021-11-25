@@ -46,12 +46,15 @@ header{
   margin-top: 180px;
   font-size: 60px;
 }
+.evil{
+  color: #af3e4d;
+}
 .text h2 {
   color: #757780;
   font-size: 25px;
 }
 .text {
-  line-height: 3.4rem;
+  line-height: 3,5rem;
 }
 .main-container{
     display: flex;
@@ -112,15 +115,15 @@ footer li span{
  .text h1{
    margin-left:10px;
    margin-top: 50px;
-   font-size: 50px;
+   font-size: 40px;
    
  }
  .text h2{
-   font-size: 24px;
+   font-size: 20px;
    margin-left: 10px;
  }
  .text{
-   line-height: 3rem;
+   line-height: 2.4rem;
  }
  header{
    height: 300px;
@@ -148,11 +151,14 @@ footer li span{
 @media (max-width: 380px){
   .text h1{
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
     
   }
-  .text h2{
+  .nav a{
     font-size: 20px;
+  }
+  .text h2{
+    font-size: 15px;
     margin:0;
   }
   footer{
